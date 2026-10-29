@@ -1,5 +1,12 @@
 # Experiment readiness calculator
 
+**[Try the live app →](https://pinghsuanli-experiment-readiness-calculator.streamlit.app/)**
+*(Free hosting: if it has been idle, it takes about 30 seconds to wake up.)*
+
+[![tests](https://github.com/Pinghsuanlin/experiment-readiness-calculator/actions/workflows/ci.yml/badge.svg)](https://github.com/Pinghsuanlin/experiment-readiness-calculator/actions)
+
+<img width="1661" height="1192" alt="image" src="https://github.com/user-attachments/assets/25a55114-8103-471d-8386-bade1faecd93" />
+
 Before a team argues about how to test a change, it should know whether a test can reach a
 result at all: how many users it needs, which design fits, and how many days it will take in
 each market. This app answers that for A/B tests, switchbacks and interleaving, and turns a list
@@ -7,6 +14,7 @@ of markets into a red / amber / green readiness table.
 
 It is a public, generic rebuild of a readiness framework I specified for a ranking test at a
 services marketplace. The sample data is synthetic.
+
 
 ## Why
 
