@@ -23,6 +23,7 @@ dev = [
 ]
 
 [project.urls]
+Homepage = "https://pinghsuanli-experiment-readiness-calculator.streamlit.app/"
 Repository = "https://github.com/Pinghsuanlin/experiment-readiness-calculator"
 
 [tool.hatch.build.targets.wheel]
