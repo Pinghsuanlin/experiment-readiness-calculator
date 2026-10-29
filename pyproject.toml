@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "experiment-readiness-calculator"
+version = "0.1.0"
+description = "Can this test reach a result? Sample size, switchback and interleaving planning, with a readiness table per market."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Sherie Lin" }]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "streamlit>=1.32",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.5",
+]
+
+[project.urls]
+Repository = "https://github.com/Pinghsuanlin/experiment-readiness-calculator"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/readiness"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110

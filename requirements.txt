@@ -1,0 +1,1 @@
+. # lets Streamlit Cloud install the app and its dependencies

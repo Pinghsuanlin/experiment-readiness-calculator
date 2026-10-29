@@ -1,0 +1,13 @@
+cell,daily_units,baseline_rate,supply_constrained
+Madrid | cleaning,42000,0.048,true
+Madrid | plumbing,9500,0.061,false
+Madrid | tutoring,3100,0.032,false
+Barcelona | cleaning,28000,0.051,true
+Barcelona | photography,1200,0.027,false
+Valencia | cleaning,7600,0.044,false
+Valencia | removals,2100,0.072,false
+Sevilla | gardening,900,0.038,false
+Bilbao | electricians,1800,0.066,false
+Malaga | cleaning,5400,0.047,true
+Zaragoza | painting,650,0.041,false
+Granada | tutoring,420,0.029,false
